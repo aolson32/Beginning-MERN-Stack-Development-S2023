@@ -13,6 +13,6 @@ app.use('*', (req,res)=>{
     res.status(404).json({error: "not found"})
 })
 
-app.listen(port, console.log(`Server started on port: ${port}`))
+//app.listen(port, console.log(`Server started on port: ${port}`))
 
 export default app
